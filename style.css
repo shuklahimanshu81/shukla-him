@@ -10,6 +10,7 @@
     font-family: 'Montserrat', 
     sans-serif;
     margin: 0px;
+    background-color: #ECFDF5;;
 } 
 hr {
     margin: 2rem 0rem;
@@ -24,8 +25,10 @@ hr {
 /**links**/   
 }
 .link{ 
-    padding: 00.5rem 1rem;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
     text-decoration: none;
+    
    
     border-radius: 0.5rem;
 }
@@ -33,12 +36,13 @@ hr {
     
     background-color: var(--primary-color);
     color: white;
+    padding-right: 1rem;
     
 }
 .link-secondary{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    
+    padding-left: 1rem;
 }
 
 /** lists **/
@@ -77,6 +81,7 @@ hr {
 .hero
 {
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-img{
     max-width: 350px;
@@ -117,4 +122,8 @@ footer{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer .footer-header {
+    font-size: large;
+    font-weight: bold;
 }
