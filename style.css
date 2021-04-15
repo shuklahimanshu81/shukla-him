@@ -3,7 +3,7 @@
 :root{
     --primary-color: #10B981;
     --dark-gray:#E5E7EB ;
-    --secondary-color: aquamarine;
+    --secondary-color: rgb(114, 201, 201);
 }
 
  body {
@@ -111,7 +111,7 @@ hr {
 } 
 /** footers **/
 footer{
-    background-color: var(--secondary-color) ;
+    background-color: aquamarine ;
     padding: 2rem 1rem;
     text-align: center;
     color: black;
@@ -126,4 +126,11 @@ footer{
 .footer .footer-header {
     font-size: large;
     font-weight: bold;
+}
+
+/** Extras **/
+
+.project-space{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
