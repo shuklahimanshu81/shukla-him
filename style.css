@@ -3,4 +3,12 @@
  body {
     font-family: 'Montserrat', 
     sans-serif;
-}   
+}  
+.container{
+    padding: 1rem 1rem;
+    margin: auto;
+} 
+.container-center{
+    max-width: 500px;
+    
+}
