@@ -79,7 +79,7 @@ hr {
     padding-top: 1rem;
     border-bottom-left-radius: 1rem;
     isolation: isolate;
-    height: 2.5cm;
+    min-height: 2.5cm;
 }
 
 
