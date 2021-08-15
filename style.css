@@ -136,6 +136,9 @@ hr {
 
 
 }
+p{
+    max-width: 300px;
+}
 
 .ow {
     background-color: var(--dark-gray);
