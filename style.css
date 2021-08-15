@@ -20,6 +20,7 @@ a{
 #main-div {
     margin: 0px auto;
     max-width: 700px;
+    display: block;
 
 }
 
@@ -111,7 +112,7 @@ hr {
 .hero .hero-img {
     max-width: 350px;
     display: block;
-    margin: auto;
+    margin: 0rem auto;
 }
 
 .hero .hero-heading {
@@ -151,6 +152,7 @@ footer {
 
 .footer .link {
     color: black;
+    display: inline-block;
 }
 
 .footer ul {
